@@ -3,9 +3,9 @@ public class Lecture1 {
         for (int i = 1; i <= 10; i++) {
             try {
                 f(i);
-                System.out.println(i + " - нет исключений");
+                System.out.println(i + "  -  нет исключений");
             } catch (Exception e) {
-                System.out.println(i + " - исключене");
+                System.out.println(i + "  -  исключене");
             }
         }
 
